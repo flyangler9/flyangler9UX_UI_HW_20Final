@@ -68,11 +68,18 @@ li {
     height: 600px;
     padding: 25px;
     display: inline-block;
-    align: center;
+    text-align: center;
+    background-color: #F2D5bb;
 }
 
 .content {
     margin: 0 auto;
+}
+
+.btn-primary {
+    font-family: Rockwell, Perpetua, serif;
+    font-size: 16pt;
+    background-color: #E47526;
 }
 
 button {
@@ -83,7 +90,7 @@ button {
 footer {
     padding: 1%;
     display: inline-block;
-    background-color: #4AAAD2;
+    background-color: #E47526;
     font-family: Rockwell, Perpetua, serif;
     font-size: 16pt;
     margin-top: 25px;
