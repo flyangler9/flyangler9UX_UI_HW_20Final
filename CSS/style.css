@@ -95,6 +95,12 @@ footer {
     font-size: 16pt;
     margin-top: 25px;
 }
+.portrait {
+    width: 5%;
+    padding: 1%;
+    align-items: center;
+
+}
 
 hr.rounded {
     margin-top: 24px;
