@@ -2,6 +2,12 @@
     background-color: #F2D5bb;
 
 }
+.logo {
+    width: 30%;
+    padding: 1%;
+    align-items: center;
+
+}
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -25,13 +31,6 @@ h4 {
 p {
     font-family: Rockwell, Perpetua, serif;
     font-size: 12pt;
-}
-
-.logo {
-    width: 30%;
-    padding: 1%;
-    align-items: center;
-
 }
 
 nav {
