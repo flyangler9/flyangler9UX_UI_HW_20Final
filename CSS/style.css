@@ -1,0 +1,172 @@
+body {
+    background-color: #ABBF75;
+
+}
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+h1 {
+    font-family: Rockwell, Perpetua, serif;
+    font-size: 36pt;
+    
+}
+
+h3 {
+    font-family: Perpetua, Rockwell, serif;
+    font-size: 24pt;
+}
+
+h4 {
+    font-family: Perpetua, Rockwell, serif;
+    font-size: 18pt;
+}
+
+p {
+    font-family: Rockwell, Perpetua, serif;
+    font-size: 12pt;
+}
+
+.logo {
+    width: 30%;
+    padding: 1%;
+    align-items: center;
+
+}
+
+nav {
+    padding: 1%;
+    display: inline-block;
+    background-color: #4AAAD2;
+    font-family: Rockwell, Perpetua, serif;
+    font-size: 16pt;
+    margin-top: 25px;
+
+}
+
+ul {
+    margin-left: auto;
+    list-style: none;
+    display: inline-block;
+
+}
+
+li {
+    display: inline-block;
+    font-size: 24;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+    display: inline-block;
+}
+
+.cardCase {
+    height: 600px;
+    padding: 25px;
+    display: inline-block;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+button {
+    font-family: Rockwell, Perpetua, serif;
+    font-size: 16pt;
+    background-color: #E47526;
+}
+footer {
+    padding: 1%;
+    display: inline-block;
+    background-color: #4AAAD2;
+    font-family: Rockwell, Perpetua, serif;
+    font-size: 16pt;
+    margin-top: 25px;
+}
+
+hr.rounded {
+    margin-top: 24px;
+    border-top: 10px solid #262626;
+    border-radius: 5px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    width: 33% 33% 33%;
+    margin: 25px 25px;
+    padding: 20px;
+
+}
+
+#logo1 {
+    height: 50%;
+    align-items: center;
+
+}
+
+#logo2 {
+    height: 50%;
+    align-items: center;
+
+}
+#logo3 {
+    height: 50%;
+    align-items: center;
+
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20% 15% 5% 15% 5% 15% 10%;
+    grid-template-areas:
+        "logo1 logo2 logo3"
+        "title1 title2 title3"
+        "challenge challenge challenge"
+        "chalText1 chalText2 chalText3"
+        "outcome outcome outcome"
+        "outText1 outText2 outText3"
+        "button1 button2 button3"
+}
+
+@media screen and (max-width: 768px) {
+    .flexContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+
+    .workGrid {
+        grid-template-rows: 20% 15% 5% 15% 5% 15% 10% 20% 15% 5% 15% 5% 15% 10% 20% 15% 5% 15% 5% 15% 10%;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "logo1"
+        "title1"
+        "challenge"
+        "chalText1"
+        "outcome"
+        "outText1"
+        "button1"
+        "logo2"
+        "title2"
+        "challenge"
+        "chalText2"
+        "outcome"
+        "outText2"
+        "button2"
+        "logo3"
+        "title3"
+        "challenge"
+        "chalText3"
+        "outcome"
+        "outText3"
+        "button3"
+        ;
+    }
+
+}
