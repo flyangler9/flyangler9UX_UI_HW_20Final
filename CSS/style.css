@@ -5,10 +5,15 @@
 .logo {
     width: 30%;
     padding: 1%;
-    align-items: center;
+    align-items: center !important;
 
 }
+.logo2 {
+    padding: 1%;
+    display:center;
+}
 .inline-block {
+    padding: 1%;
     display: inline-block;
     vertical-align: top;
 }
@@ -19,12 +24,12 @@ h1 {
 }
 
 h3 {
-    font-family: Perpetua, Rockwell, serif;
+    font-family: Rockwell, Perpetua, serif;
     font-size: 24pt;
 }
 
 h4 {
-    font-family: Perpetua, Rockwell, serif;
+    font-family: Rockwell, Perpetua, serif;
     font-size: 18pt;
 }
 
@@ -40,6 +45,7 @@ nav {
     font-family: Rockwell, Perpetua, serif;
     font-size: 16pt;
     margin-top: 25px;
+    margin-bottom: 25px;
 
 }
 
@@ -73,8 +79,7 @@ li {
     display: inline-block;
     text-align: left;
     background-color: #F2D5bb !important;
-    border: none !important;
-}
+    }
 
 .content {
     margin: 0 auto;
